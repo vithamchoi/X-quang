@@ -1,0 +1,23 @@
+# Ignore massive data files and checkpoints
+archive/
+archive.zip
+*.zip
+*.pth
+*.pkl
+__pycache__/
+*.pyc
+
+# Ignore large downloaded models and experiment raw weights
+experiments/checkpoints/
+models/*.pth
+models/*.bin
+models/*.onnx
+
+# Ignore IDE and OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep folder structure with .gitkeep
+!.gitkeep
